@@ -22,8 +22,8 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_account_id"></a> [account\_id](#input\_account\_id) | n/a | `string` | `"3103539"` | no |
-| <a name="input_api_key"></a> [api\_key](#input\_api\_key) | n/a | `string` | `"NRAK-RPOKDHYE48SMXR761FVPJYTZYXG"` | no |
+| <a name="input_account_id"></a> [account\_id](#input\_account\_id) | n/a | `string` | `""` | no |
+| <a name="input_api_key"></a> [api\_key](#input\_api\_key) | n/a | `string` | `""` | no |
 | <a name="input_region"></a> [region](#input\_region) | n/a | `string` | `"US"` | no |
 
 ## Outputs
