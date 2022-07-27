@@ -6,13 +6,11 @@ module "relational_databases_alerts" {
    relactional_database_name      = "'prd-dam-1'"
    alert_policy_name              = "avaliacoes"
    trybe_name                     = "avaliacoes"
+   relactional_database           = true
 
    # Slack
    channel_slack                  = ""    // only if ops_engine_integration is false
    url_slack                      = ""    // only if ops_engine_integration is false
-
-
-   relactional_database           = true
 
    # Properties
    operator                       = ""    // empty is equal, change value for above or below
